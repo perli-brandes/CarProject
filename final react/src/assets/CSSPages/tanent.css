@@ -1,0 +1,77 @@
+
+
+
+.tenant-details-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  
+  .tenant-details-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  
+  .availability-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  
+  .availability-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  
+  .availability-item label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+  }
+  
+  
+  .availability-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  
+  .tenant-details-container h4 {
+    text-align: right;
+    margin-top: 20px;
+    color: #444;
+  }
+  
+  
+  .continue-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  

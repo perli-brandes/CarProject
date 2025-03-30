@@ -1,0 +1,673 @@
+2024-10-15 22:02:58.442107+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 22:02:58.472713+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:02:58.483791+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:21:37.051740+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 22:21:37.057752+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists car_available add constraint FK3m3opqegdgnp563wxxu1pewok foreign key (car_car_id) references car [42102-224]
+2024-10-15 22:21:37.063753+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:21:37.065854+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:55:41.515522+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 22:55:41.525548+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:55:41.531608+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:55:41.534821+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:58:28.815719+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 22:58:28.824458+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:58:28.831987+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:58:28.833987+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:59:58.001261+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 22:59:58.010395+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:59:58.018791+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 22:59:58.021790+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:06:35.795747+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 23:06:35.802754+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:06:35.810433+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:06:35.812431+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:07:59.270596+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), [*]year varchar(255), owner_user_id bigint, primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (car_id bigint not null, day_rate float(53) not null, license_plate varchar(255), address varchar(255), latitude float(53), longitude float(53), model varchar(255), year varchar(255), owner_user_id bigint, primary key (car_id)) [42001-224]
+2024-10-15 23:07:59.278599+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:07:59.285502+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:07:59.287502+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:08:40.748774+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (day_rate float(53) not null, latitude float(53), longitude float(53), car_id bigint not null, owner_user_id bigint, address varchar(255), license_plate varchar(255), model varchar(255), [*]year varchar(255), primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (day_rate float(53) not null, latitude float(53), longitude float(53), car_id bigint not null, owner_user_id bigint, address varchar(255), license_plate varchar(255), model varchar(255), year varchar(255), primary key (car_id)) [42001-224]
+2024-10-15 23:08:40.761048+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:08:40.762050+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:08:40.780046+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:11:24.178426+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USERS AVAILABILITY [*]CAR_AVAILABLE"; SQL statement:
+SELECT * FROM USERS AVAILABILITY CAR_AVAILABLE [42000-224]
+2024-10-15 23:12:45.343420+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant "22-10-2029"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IllegalArgumentException: 22-10-2029
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:194)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2024-10-15 23:12:45.347530+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant "22-10-2029"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IllegalArgumentException: 22-10-2029
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:194)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2024-10-15 23:13:25.970283+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'bus' (USERS: ""TYPE"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:13:25.970283+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'bus' (USERS: ""TYPE"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:14:56.082670+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'""bus""' (USERS: ""TYPE"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:14:56.082670+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'""bus""' (USERS: ""TYPE"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:15:54.194641+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "USERS" not found; SQL statement:
+SELECT  USERS [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1170)
+	at org.h2.command.query.Query.prepare(Query.java:218)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1345)
+	at org.h2.server.web.WebApp.query(WebApp.java:1143)
+	at org.h2.server.web.WebApp.query(WebApp.java:1119)
+	at org.h2.server.web.WebApp.process(WebApp.java:245)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-10-15 23:17:12.007017+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant "12/03/2025"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: For input string: "12/03/"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:190)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2024-10-15 23:17:12.009127+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant "12/03/2025"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: For input string: "12/03/"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:190)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2024-10-15 23:18:56.807500+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'car' (USERS: ""TYPE"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:18:56.807500+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'car' (USERS: ""TYPE"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:20:13.040532+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:20:13.040532+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:25:47.958000+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (day_rate float(53) not null, latitude float(53), longitude float(53), car_id bigint not null, owner_user_id bigint, address varchar(255), license_plate varchar(255), model varchar(255), [*]year varchar(255), primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (day_rate float(53) not null, latitude float(53), longitude float(53), car_id bigint not null, owner_user_id bigint, address varchar(255), license_plate varchar(255), model varchar(255), year varchar(255), primary key (car_id)) [42001-224]
+2024-10-15 23:25:47.972105+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:25:47.974103+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:25:47.987108+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:26:55.930429+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:26:55.930429+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:32:08.539720+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table car (day_rate float(53) not null, latitude float(53), longitude float(53), car_id bigint not null, owner_user_id bigint, address varchar(255), license_plate varchar(255), model varchar(255), [*]year varchar(255), primary key (car_id))"; expected "identifier"; SQL statement:
+create table car (day_rate float(53) not null, latitude float(53), longitude float(53), car_id bigint not null, owner_user_id bigint, address varchar(255), license_plate varchar(255), model varchar(255), year varchar(255), primary key (car_id)) [42001-224]
+2024-10-15 23:32:08.553714+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists availability add constraint FKcaej0gfdger3qa02gg0mpdavv foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:32:08.554628+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists rental add constraint FKnv1ggpjclxe2a1cfgxs8ddc6b foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:32:08.564626+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+alter table if exists review add constraint FKlhiaeqgui9hw2sbjfribld2wy foreign key (car_id_car_id) references car [42102-224]
+2024-10-15 23:33:17.388082+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT GENERATED BY DEFAULT AS IDENTITY(START WITH 1) NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-15 23:33:17.388082+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT GENERATED BY DEFAULT AS IDENTITY(START WITH 1) NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-16 01:27:48.076660+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-16 01:27:48.079659+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""USER_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."USERS"("LICENSE_EXPIRY_DATE","TYPE","USER_ID","DRIVER_LICENSE_NUMBER","EMAIL","NAME","PHONE")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-10-16 01:37:47.647691+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists car add column [*]year varchar(255)"; expected "identifier"; SQL statement:
+alter table if exists car add column year varchar(255) [42001-224]
+2024-10-16 03:06:58.600917+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (AVAILABLE: ""CAR_CAR_ID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."AVAILABLE"("END_DATE","START_DATE","CAR_CAR_ID","ID")VALUES(?,?,?,?) [22018-224]
+2024-10-16 03:06:58.614925+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (AVAILABLE: ""CAR_CAR_ID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."AVAILABLE"("END_DATE","START_DATE","CAR_CAR_ID","ID")VALUES(?,?,?,?) [22018-224]
+2024-10-16 03:12:59.041045+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'2029-10-12' (CAR: ""DAY_RATE"" FLOAT(53) NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."CAR"("DAY_RATE","LATITUDE","LONGITUDE","CAR_ID","OWNER_USER_ID","ADDRESS","CAR_YEAR","LICENSE_PLATE","MODEL")VALUES(?,?,?,?,?,?,?,?,?) [22018-224]
+2024-10-16 03:12:59.046057+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'2029-10-12' (CAR: ""DAY_RATE"" FLOAT(53) NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."CAR"("DAY_RATE","LATITUDE","LONGITUDE","CAR_ID","OWNER_USER_ID","ADDRESS","CAR_YEAR","LICENSE_PLATE","MODEL")VALUES(?,?,?,?,?,?,?,?,?) [22018-224]
+2024-10-21 11:48:27.652291+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'2029-10-12' (CAR: ""DAY_RATE"" FLOAT(53) NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."CAR"("DAY_RATE","LATITUDE","LONGITUDE","CAR_ID","OWNER_USER_ID","ADDRESS","CAR_YEAR","LICENSE_PLATE","MODEL")VALUES(?,?,?,?,?,?,?,?,?) [22018-224]
+2024-10-21 11:48:27.656289+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'2029-10-12' (CAR: ""DAY_RATE"" FLOAT(53) NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."CAR"("DAY_RATE","LATITUDE","LONGITUDE","CAR_ID","OWNER_USER_ID","ADDRESS","CAR_YEAR","LICENSE_PLATE","MODEL")VALUES(?,?,?,?,?,?,?,?,?) [22018-224]
+2024-10-31 17:18:16 jdbc[3]: exception
+java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
+	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1573)
+	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:469)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-10-31 17:18:24 jdbc[4]: exception
+java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
+	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1573)
+	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:469)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-07 01:36:45.734148+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (CAR: ""LATITUDE"" FLOAT(53))"; SQL statement:
+INSERT INTO "PUBLIC"."CAR"("DAY_RATE","LATITUDE","LONGITUDE","CAR_ID","OWNER_USER_ID","ADDRESS","CAR_YEAR","LICENSE_PLATE","MODEL")VALUES(?,?,?,?,?,?,?,?,?) [22018-224]
+2024-11-07 01:36:45.750244+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (CAR: ""LATITUDE"" FLOAT(53))"; SQL statement:
+INSERT INTO "PUBLIC"."CAR"("DAY_RATE","LATITUDE","LONGITUDE","CAR_ID","OWNER_USER_ID","ADDRESS","CAR_YEAR","LICENSE_PLATE","MODEL")VALUES(?,?,?,?,?,?,?,?,?) [22018-224]
+2024-12-15 18:11:29.871493+02:00 jdbc[16]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-12-17 12:07:10.159992+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (AVAILABLE: ""STATUS"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."AVAILABLE"("END_DATE","START_DATE","STATUS","CAR_CAR_ID","ID","RENTAL_RENTALID")VALUES(?,?,?,?,?,?) [22018-224]
+2024-12-17 12:07:10.182237+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (AVAILABLE: ""STATUS"" TINYINT)"; SQL statement:
+INSERT INTO "PUBLIC"."AVAILABLE"("END_DATE","START_DATE","STATUS","CAR_CAR_ID","ID","RENTAL_RENTALID")VALUES(?,?,?,?,?,?) [22018-224]
+2024-12-17 17:46:45.976052+02:00 jdbc[34]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-12-17 22:23:31.984325+02:00 jdbc[65]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-12-18 00:36:00.041711+02:00 jdbc[96]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2024-12-19 01:20:27.823014+02:00 jdbc[65]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
